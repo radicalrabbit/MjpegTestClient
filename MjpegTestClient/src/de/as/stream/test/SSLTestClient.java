@@ -37,7 +37,7 @@ public class SSLTestClient {
      * @throws  
 	*/
 	@SuppressWarnings("resource")
-	public static void main() {
+	public static void main(String[] args) {
 		try {
 			String urlString = "http://192.168.178.36:8080/";
 			String path = "C:\\temp\\";

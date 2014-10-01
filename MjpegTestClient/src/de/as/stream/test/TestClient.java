@@ -18,7 +18,7 @@ public class TestClient {
 	* @throws IOException
 	*/
 	@SuppressWarnings("resource")
-	public static void main() throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException {
 		String urlString = "http://192.168.178.36:8080/";
 		String path = "C:\\Users\\alex\\Downloads\\test\\";
 		try {
